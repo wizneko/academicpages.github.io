@@ -1,56 +1,124 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "我的个人主页"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+# 你好，我是 Wizneko
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+欢迎来到我的个人主页。
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+我是一名福州大学计算机科学与技术专业的大三学生，目前正在学习和探索计算机技术、人工智能应用以及项目开发。我希望通过这个主页记录自己的学习过程、实践经历、兴趣爱好和未来规划，也希望能够与更多人交流学习。
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+## 关于我
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+我的兴趣爱好比较广泛，平时喜欢看小说、打篮球和看动漫。
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+看小说能够让我接触不同的人物、故事和思想，也让我学会从不同角度思考问题。打篮球让我感受到运动的快乐，也让我认识到团队配合、坚持和临场应变的重要性。看动漫则让我接触到各种不同的世界观、人物设定和表达方式，许多作品中的创造力也给我带来了启发。
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+除了这些兴趣，我还想和大家分享自己养的猫。猫咪的日常生活中有很多有趣的瞬间，例如它们好奇地探索新环境、安静地陪伴在身边，或者突然做出一些让人意想不到的事情。以后我会在主页中添加猫咪的照片和生活记录，让这个主页不仅能够展示学习成果，也能够记录真实的日常生活。
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## 专业学习
 
-**Markdown generator**
+作为福州大学计算机科学与技术专业的大三学生，我已经学习过以下课程：
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+- C 语言程序设计；
+- C++ 程序设计；
+- 算法与数据结构；
+- 计算机组成原理；
+- 计算机网络。
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+通过这些课程的学习，我对程序设计、算法思想、计算机硬件组成以及计算机网络通信等内容有了初步认识。
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+其中，C 和 C++ 课程帮助我建立了编程基础，算法与数据结构课程让我开始理解程序效率和问题解决方法，计算机组成原理让我了解计算机底层运行的基本过程，计算机网络则让我认识了网络通信和互联网运行的基本原理。
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+目前，我还在继续巩固这些课程知识，并尝试把课堂上学习到的内容运用到实际项目中。
+
+## 个人成果与实践经历
+
+### 数学建模竞赛
+
+我曾经参加过两次数学建模竞赛。
+
+在竞赛过程中，我们需要针对实际问题进行分析，查找资料，建立数学模型，处理相关数据，并将最终结果整理成完整的论文。通过这两次经历，我对数学建模的基本流程有了更直观的认识，也锻炼了自己的问题分析能力、资料查找能力、逻辑表达能力和团队协作能力。
+
+数学建模竞赛让我认识到，解决问题并不只是套用某个公式，更重要的是先理解问题，再选择合适的方法，并且能够清楚地解释自己的思路和结果。
+
+### 借助 Agent 开发棋类游戏
+
+目前，我正在尝试独立借助 Agent 开发棋类游戏。
+
+在这个过程中，我会先思考游戏规则和整体功能，再将任务拆分成不同的部分，例如棋盘设计、棋子移动、胜负判断、用户交互和界面优化等。Agent 可以在代码编写、问题分析和功能调整等方面提供帮助，但我仍然需要自己理解需求、检查代码并不断测试。
+
+这次实践让我感受到，人工智能不仅可以用来生成文字或代码，也可以成为学习和开发过程中的协作工具。通过与 Agent 配合，我能够更快地验证自己的想法，同时也需要不断提高自己的判断能力、编程基础和项目开发能力。
+
+## 我的技能
+
+目前，我正在逐步培养以下方面的能力：
+
+- 掌握 C、C++ 的基础编程知识；
+- 了解算法与数据结构的基本内容；
+- 具备一定的问题分析和逻辑思考能力；
+- 了解计算机组成原理和计算机网络基础；
+- 具备资料查找、信息整理和结果表达能力；
+- 参加过两次数学建模竞赛；
+- 能够使用人工智能工具辅助学习和项目开发；
+- 正在学习如何借助 Agent 完成项目任务；
+- 具备一定的团队沟通和协作能力；
+- 对棋类游戏开发和程序设计有初步实践经验；
+- 愿意主动学习新技术，并通过实践检验学习成果。
+
+## 自我评估
+
+### 已经掌握的知识和能力
+
+目前，我已经学习过 C、C++、算法与数据结构、计算机组成原理和计算机网络等专业课程，具备一定的编程基础、算法思维和计算机系统知识。
+
+两次数学建模竞赛让我积累了团队合作、资料查找、问题分析和任务推进经验。独立借助 Agent 开发棋类游戏的实践，则让我开始接触项目开发的完整过程，包括需求分析、任务拆解、代码实现、功能测试和问题修改。
+
+不过，我目前的知识体系还不够完善，编程能力和项目经验也需要继续提升。今后我会继续巩固基础知识，并通过更多实践项目提高自己的综合能力。
+
+### 感兴趣的技术方向
+
+我对人工智能应用比较感兴趣，尤其关注人工智能如何应用到学习、编程、游戏开发和实际项目中。
+
+目前，我比较关注以下方向：
+
+- 人工智能工具的实际应用；
+- Agent 协作与智能开发；
+- 人工智能辅助编程；
+- 游戏开发与智能交互；
+- 数据分析和数学建模；
+- 人工智能与软件开发的结合。
+
+我希望未来能够进一步理解人工智能背后的基本原理，而不仅仅是会使用相关工具。同时，我也希望通过更多项目，探索人工智能如何真正解决实际问题。
+
+### 最希望学习的知识
+
+接下来，我希望进一步巩固已有课程知识，并系统学习软件工程、数据库、操作系统以及人工智能相关内容。
+
+我最希望学习的知识包括：
+
+- 更扎实的 C、C++ 编程能力；
+- 数据结构与算法；
+- 操作系统；
+- 数据库原理；
+- 软件工程方法；
+- 人工智能和机器学习的基本原理；
+- Agent 的工作机制和应用方法；
+- 更规范的项目管理与代码编写方式。
+
+我希望自己不仅能够借助工具完成项目，也能够真正理解项目背后的原理，独立分析问题并解决问题。
+
+## 未来三年发展规划
+
+未来三年，我的主要目标是完成本科阶段的学习，并积极准备研究生考试，争取进入理想的研究生院校继续深造。
+
+未来一年半，我会在正常完成本科专业课程学习的基础上，积极备战考研。首先继续巩固 C、C++、算法与数据结构、计算机组成原理和计算机网络等已经学习过的专业知识，同时补充操作系统、数据库和软件工程等相关内容。在此基础上，我会认真准备数学、英语和 408 计算机学科专业基础，逐步了解不同院校的专业实力、培养方向和导师研究方向，并结合自己的兴趣和实际情况确定考研目标。
+
+之后一年半，我希望能够顺利完成本科阶段的学习，认真完成毕业设计和各项专业任务，并争取考取理想的研究生院校。考研对我来说，不仅是为了获得更高的学历，也是希望进入更好的学习环境，跟随优秀导师学习更加深入的技术知识、科研方法和实践经验。
+
+进入研究生阶段后，我会继续关注人工智能应用、Agent 协作、智能开发和数据分析等方向，逐步确定自己的研究重点，提升独立研究和解决实际问题的能力。我希望通过研究生阶段的学习，进一步拓宽专业视野，积累更多技术经验，为未来就业或继续从事相关研究打下基础。
