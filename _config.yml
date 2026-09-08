@@ -22,7 +22,7 @@ repository               : "wizneko/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "my cat.jpg"
+  avatar           : "mutsumi.jpg"
   name             : "Wizneko"
   bio              : "福州大学计算机科学与技术专业大三学生"
   location         : "福州大学"
